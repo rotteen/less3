@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="https://formspree.io/spirnyak2010@gmail.com">
+        <label for="client-name">Client name:</label>
+        <input type="text" name="client-name" id="client-name" required>
+        
+        <label>
+            email:
+           <input type="email" name="client-email" required>
+           </label>
+                   <label>
+            Car plate number:
+           <input type="text" name="car-plate" required
+           pattern="[A-Z]{4}"
+           placeholder="AAAA"
+           title="AAAA">
+           </label>
+     <Fieldset>   
+    <label>
+            Pizza:  
+    <input type="checkbox" name="pizza">
+    </label>
+       <label>
+            Beer:  
+    <input type="checkbox" name="beer">
+    <label>
+        Number of pizzas
+        <input type="number" name="numberofpizzas" value="1" min="1" max="20">
+    </label>
+    </label>
+    <label>
+        comment
+        <textarea name="comment"></textarea>
+    </label>
+    </Fieldset> 
+            <input type="submit">
+            <input type="reset">
+    </form>
+</body>
+</html>
